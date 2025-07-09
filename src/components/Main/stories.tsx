@@ -1,0 +1,12 @@
+import { Meta, StoryObj } from '@storybook/nextjs'
+import Main from '.'
+
+export default {
+  title: 'Main',
+  component: Main,
+  parameters: {
+    layout: 'fullscreen'
+  }
+} as Meta
+
+export const Default: StoryObj = {}
