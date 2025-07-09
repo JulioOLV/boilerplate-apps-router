@@ -1,12 +1,22 @@
 import { Meta, StoryObj } from '@storybook/nextjs'
 import Main from '.'
 
-export default {
+const meta = {
   title: 'Main',
   component: Main,
   parameters: {
     layout: 'fullscreen'
   }
-} as Meta
+} as Meta<typeof Main>
+export default meta
 
-export const Default: StoryObj = {}
+type Story = StoryObj<typeof meta>
+
+export const Default: Story = {}
+
+export const Basic: Story = {
+  args: {
+    title: 'title basic',
+    description: 'description basic'
+  }
+}

@@ -1,6 +1,6 @@
 const config = {
   stories: ['../src/components/**/stories.tsx'],
-  addons: ['@storybook/addon-essentials'],
+  addons: ['@storybook/addon-docs'],
   framework: {
     name: '@storybook/nextjs',
     options: {}
@@ -11,7 +11,7 @@ const config = {
     return config
   },
   docs: {
-    autodocs: true
+    defaultName: 'Documentation'
   }
 }
 export default config

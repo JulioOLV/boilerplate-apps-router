@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@storybook/addon-docs": "^9.0.16",
     "@storybook/nextjs": "^9.0.16",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",

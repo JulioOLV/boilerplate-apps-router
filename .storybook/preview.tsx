@@ -1,4 +1,5 @@
 import React from 'react'
+import type { Preview } from '@storybook/nextjs'
 import GlobalStyles from '../src/styles/global'
 
 export const decorators = [
@@ -9,3 +10,9 @@ export const decorators = [
     </>
   )
 ]
+
+const preview: Preview = {
+  tags: ['autodocs']
+}
+
+export default preview
