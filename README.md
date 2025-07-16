@@ -1,8 +1,7 @@
+# Next.js Boilerplate
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![Next.js](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.ctfassets.net%2F23aumh6u8s0i%2F6pjUKboBuFLvCKkE3esaFA%2F5f2101d6d2add5c615db5e98a553fc44%2Fnextjs.jpeg&f=1&nofb=1&ipt=1476a24d0bf7899a61dfe1201241fa82fe5d5a8084781bd42a7c13979ea25d76)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -41,6 +40,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+- `generate`: generate a new component using plop
 
 ## Learn More
 
@@ -56,3 +56,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Create a new project using this boilerplate
+
+```bash
+npx create-next-app@latest --example https://github.com/JulioOLV/boilerplate-apps-router
+```
